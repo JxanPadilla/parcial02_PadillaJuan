@@ -20,14 +20,14 @@ export const Cabecera = () => {
                                     Conciertos
                                 </a>
                                 <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="/concicrear">Crear</a></li>
-                                        <li><a className="dropdown-item" href="/consilistar">Listar</a></li>
+                                        <li><NavLink className="dropdown-item" to="/concicrear">Crear</NavLink></li>
+                                        <li><NavLink className="dropdown-item" to="/concilistar">Listar</NavLink></li>
                                         <li><hr className="dropdown-divider"/></li>
-                                        <li><a className="dropdown-item" href="/conciadmin">Admin</a></li>
+                                        <li><NavLink className="dropdown-item" to="/conciadmin">Admin</NavLink></li>
                                     </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/*">Acerca de...</NavLink>
+                                <NavLink className="nav-link" to="*">Acerca de...</NavLink>
                             </li>
                         </ul>
                     </div>

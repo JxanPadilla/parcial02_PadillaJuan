@@ -1,4 +1,4 @@
-export const Admin = () => {
+export const ConciertoAdmin = () => {
   return (
     <>
       <h1>Admin</h1>
